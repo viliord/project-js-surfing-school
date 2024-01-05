@@ -1,0 +1,76 @@
+.application{
+    height: 1182px;
+    background-color:#FFFFFF;
+}
+.application-item{
+    display: flex;
+    padding-top: 243px;
+}
+.data,.adress{
+    width: 600px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sabmit{
+    width: 350px;
+    height: 70px;
+    border: 1px solid #C4C4C4;
+    background-color:  #FFFFFF;
+}
+
+#message{
+    width: 569px;
+    height: 209px;
+    margin-bottom: 73px;
+}
+
+#name,#phone,#message{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #00B2A0;
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    border-bottom: 2px solid  #DADADA;
+   
+}
+#name,#phone{
+    height: 38px;
+}
+.adress{
+    gap: 65px;
+    padding-left: 52px;
+    padding-top: 49px;
+    background-color: #F8F8F8;
+}
+
+textarea{
+    resize: none; /* Запрещаем изменять размер */
+}
+
+#phone{
+    margin-top: 32px;
+}
+
+::placeholder{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    color: #00B2A0;
+}
+
+#nameInput,#phoneInput,#messageInput{
+    border: none;
+    width: 300px;
+    height: 37px;
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    
+}

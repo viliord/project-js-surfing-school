@@ -1,0 +1,13 @@
+.scores-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.score-list{
+    text-align: center;
+}
+.scores{
+    height: 296px;
+    background-color: #FFFFFF;
+}

@@ -1,0 +1,46 @@
+
+#videoPlayer{
+   height: 1003px;
+  position: relative;
+}
+.video .container{
+  padding-top: 200px;
+}
+.video{
+   background-color: #FFFFFF;
+}
+
+
+#video {
+   position: relative;
+   width: 1200px;   
+}
+
+
+.video-track {
+   height: 5px;
+   width: 100%;
+   background-color: #F2F2F2;
+   display: none;
+}
+
+.timeline {
+   height: 5px;
+   width: 0;
+   background-color: #01353E;
+}
+.play,.pause{
+  
+   position: absolute;
+   top:256px ;
+   left: 562px;
+   height: 100px;
+   width: 100px;
+   background: none;
+   border: none;
+   cursor: pointer;
+}
+.pause{
+   z-index: -1;
+}
+

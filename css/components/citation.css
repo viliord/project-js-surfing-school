@@ -1,0 +1,24 @@
+.citation-autor {
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 761px;
+    color: #242121;
+}
+.citation-menu{
+    height: 200px;
+    
+}
+.citation-text{
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.6px; 
+    color: #242121;
+    padding-top: 80px;
+    padding-left: 312px;
+}

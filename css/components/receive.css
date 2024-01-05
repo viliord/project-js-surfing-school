@@ -1,0 +1,54 @@
+.receive-item {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.container-receive {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 101px;
+}
+
+#title-receive {
+    padding-top: 200px;
+}
+
+.receive-text {
+    display: flex;
+    height: 100%;
+    padding-top: 15px;
+}
+
+.text {
+    width: 350px;
+    height: 68px;
+}
+
+#text-center {
+    margin-left: 43px;
+}
+
+.receive-text :last-child {
+    margin-left: 107px;
+}
+
+.receive-text-info {
+    display: flex;
+    padding-top: 102px;
+}
+
+.receive-stats-item {
+    display: flex;
+    height: 25px;
+    gap: 10px;
+}
+
+.receive-stats-text {
+    display: grid;
+    gap: 30px;
+    padding-left: 254px;
+}
+.receive-stats-middle{
+    padding: 10px 0;
+}

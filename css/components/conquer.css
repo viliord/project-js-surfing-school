@@ -1,0 +1,25 @@
+.pic{
+padding-left: 41px;
+margin-right: -360px;
+}
+.conquer{
+    height: 1050px;
+    background-color: var(--white-color);
+}
+.conquer-header{
+    display: flex;
+    width: 558px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+.conquer-peaks{
+    display: flex;
+}
+.coach{
+    width: 507px;
+    padding-top: 100px;
+}
+.teacher{
+   padding-bottom: 30px;
+}

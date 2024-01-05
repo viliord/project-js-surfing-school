@@ -1,0 +1,27 @@
+ .nav-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+   
+   
+  }
+  .nav-header{
+    margin-left: 185px;
+  }
+.ul-list{
+    gap: 45px;
+    position: relative;
+    z-index: 1;
+    height: 28px;
+}
+
+  .logo{
+    height: 63px;
+    z-index: 1;
+  }
+#header-fixed{
+  /* top: -330px; */
+  position: fixed;
+  z-index: 10;
+
+}

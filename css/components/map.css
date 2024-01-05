@@ -1,0 +1,36 @@
+.map {
+   
+   display: flex;
+   justify-content: center;
+   height: 1040px;
+}
+
+#map {
+   position: absolute;
+   width: 1473px;
+   height: 640px;
+   left: 223px;
+   top: 200px;
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: flex-end;
+}
+.map-image{
+   position: relative;
+}
+.map-btn{
+  position: relative;
+  width: 100px;
+  height: 30px;
+}
+#destroyBtn,#showBtn{
+position: absolute;
+width: 100px;
+height: 30px;
+display: none;
+border-radius: 5px;
+cursor: pointer;
+border: none;
+color:#00B2A0;
+}
+

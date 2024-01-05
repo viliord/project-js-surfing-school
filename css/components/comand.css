@@ -1,0 +1,16 @@
+.comand-foto{
+    display: flex;
+    gap: 105px;
+    padding-top: 212px;
+}
+.comand{
+    height: 987px;
+    background-color: #FFFFFF;
+}
+.foto-item{
+    text-align: center;
+}
+.comand-foto h3{
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
