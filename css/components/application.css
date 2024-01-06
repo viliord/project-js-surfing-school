@@ -38,6 +38,7 @@
    
 }
 #name,#phone{
+    width: 569px;
     height: 38px;
 }
 .adress{
@@ -67,8 +68,8 @@ textarea{
 
 #nameInput,#phoneInput,#messageInput{
     border: none;
-    width: 300px;
-    height: 37px;
+    width: 50%;
+    height: 80%;
     font-family: 'Roboto Condensed';
     font-size: 18px;
     letter-spacing: 0.6px;
