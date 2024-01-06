@@ -2,7 +2,7 @@ const roundList = document.querySelectorAll('.round-list');
 const previousPicture = document.getElementById('previousPicture');
 const previousImage = document.getElementById('previousImage')
 
-let arr = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+let arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 
 
@@ -37,7 +37,7 @@ roundList.forEach((item, i) => {
     num = i
 
     arr.filter((value) =>
-      value != i ? roundList[value].style.backgroundColor = '#F2F2F2' : item.style.backgroundColor = '#00B2A0'
+      value !== i ? roundList[value].style.backgroundColor = '#F2F2F2' : item.style.backgroundColor = '#00B2A0'
 
     )
     switch (i) {
