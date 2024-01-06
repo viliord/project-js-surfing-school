@@ -75,3 +75,19 @@ textarea{
     letter-spacing: 0.6px;
     
 }
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    margin-top: 200px;
+    
+}
+#instagram a,#youtube a{
+    color: #242121;
+}
+#facebook a{
+    color: #00B2A0;
+}
