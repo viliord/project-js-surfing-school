@@ -6,25 +6,25 @@ const showBtn = document.getElementById('showBtn');
 const destroyBtn = document.getElementById('destroyBtn');
 let myMap;
 
- map.addEventListener('mouseover',()=>{
-        showBtn.style.display = 'block'
-       });
+map.addEventListener('mouseover', () => {
+    showBtn.style.display = 'block'
+});
 
-       map.addEventListener('mouseout',()=>{
-        showBtn.style = ''
-       });
+map.addEventListener('mouseout', () => {
+    showBtn.style = ''
+});
 
-showBtn.addEventListener('click',()=>{
+showBtn.addEventListener('click', () => {
     destroyBtn.style.display = 'block'
     ymaps.ready(init);
     function init() {
-         myMap = new ymaps.Map('map', {
-                center: [29.129053778650086,-13.62303339912903],
-                zoom: 11.2
-            }, {
-                searchControlProvider: 'yandex#search'
-            }),
-    
+        myMap = new ymaps.Map('map', {
+            center: [29.129053778650086, -13.62303339912903],
+            zoom: 11.2
+        }, {
+            searchControlProvider: 'yandex#search'
+        }),
+
             myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
                 hintContent: 'Собственный значок метки',
                 balloonContent: 'Это красивая метка'
@@ -42,12 +42,12 @@ showBtn.addEventListener('click',()=>{
             })
         myMap.geoObjects
             .add(myPlacemark)
-           
-destroyBtn.addEventListener('click',()=>{
-    //для уничтожения метод destroy()
-    myMap.destroy(); 
-    destroyBtn.style = '';
-})
+
+        destroyBtn.addEventListener('click', () => {
+            //для уничтожения метод destroy()
+            myMap.destroy();
+            destroyBtn.style = '';
+        })
     }
 });
 
