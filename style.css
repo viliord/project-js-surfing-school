@@ -201,7 +201,7 @@
 
   body {
     background-color: var(--light-gray);
-
+    overflow-x: hidden;
   }
 
   .container {
